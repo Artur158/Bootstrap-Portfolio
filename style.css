@@ -1,0 +1,59 @@
+/* Text */
+h1, h2, h3 , h4, h5, h6 {
+    font-family: 'Anton', sans-serif;
+}
+p {
+    font-family: 'Jura', sans-serif;
+}
+
+  /* Navigation bar */
+
+  /* General */
+.customNav {
+    position: fixed;
+    width: 100%;
+
+    background-color: #427aa1 !important;
+    background-size: cover;
+    z-index: 10;
+}
+.navbar-nav {
+    margin-left: 20px;
+    margin-right: 0 !important;
+}
+.navbar-brand img {
+    padding-right: 20px;
+    padding-left: 30Px;
+    margin-right: 20px;
+    width: 65px;
+}
+.nav-item {
+    margin: 0px 15px;
+}
+
+  /* Navigation dropdown menu */
+.dropdown-menu {
+    background: url("../images/transparency.png");
+    background-color: transparent !important;
+    background-size: cover;
+}
+
+
+  /* Navigation links */
+.customNav a {
+    color: rgb(0, 0, 0) !important;
+}
+.navCTA {
+    font-size: 15px;
+}
+.jumbotron {
+    padding: 20px;
+    padding-top: 20px;
+    background-color: #ebf2fa;
+}
+.row {
+    flex-wrap: nowrap;
+}
+.col2 {
+    align-items: center;
+}
